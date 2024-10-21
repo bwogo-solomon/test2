@@ -1,0 +1,12 @@
+def is_same_string(input_string, target_string):
+    if input_string == target_string:
+        return True
+    else:
+        return False
+predefined_string = "hello"
+user_input = input("Enter a string: ")
+
+if is_same_string(user_input, predefined_string):
+    print("The strings are the same.")
+else:
+    print("The strings are different.")
