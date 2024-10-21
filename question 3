@@ -1,0 +1,10 @@
+def find_largest_number(int_list):
+    largest = int_list[0]
+    for num in int_list:
+        if num > largest:
+            largest = num
+
+    return largest
+numbers = [12, 5, 34, 67, 23, 9]
+largest_number = find_largest_number(numbers)
+print("The largest number is:", largest_number)
